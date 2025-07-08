@@ -8,7 +8,7 @@ function About() {
             <div className="md:ml-[11%] md:mt-[10%] mt-[20%] ">
                 <h1 className="md:text-3xl text-center text-2xl font-bold text-gray-700  md:mr-30 animate__animated animate__slideInDown">About Me</h1>
                 <div className="md:flex md:flex-row md:mt-25 mt-10 md:gap-45 gap-15 mr-30 w-full flex flex-col items-center">
-                    <div className="bg-white w-xl space-y-6 p-7 rounded-2xl shadow-2xl hover:bg-gray-50">
+                    <div className="bg-white w-[90%] md:w-xl space-y-6 p-7 rounded-2xl shadow-2xl hover:bg-gray-50">
                         <h1 className="text-[21px] text-gray-800 text-center font-semibold">My Introduction</h1>
                         <p className="text-gray-600 text-center md:text-lg">I am well-versed in HTML, CSS and JavaScript , and other cutting edge frameworks
                             and libraries,which allows me to implement interactive features. Additionally,

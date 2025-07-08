@@ -22,14 +22,14 @@ function Homepage() {
     const handleclick = () => {
         const a = document.createElement("a");
         a.href = "/my_resume.pdf";
-        a.open= "Resume.pdf";
+        a.open = "Resume.pdf";
         a.click();
     };
     return (
         <div className="overflow-hidden">
             <Navbar />
- 
-            <div className="mt-10 md:mt-[10%] md:pb-10 md:flex md:flex-row flex-col items-center px-8 md:px-4 mx-auto max-w-screen-xl"  id="home">
+
+            <div className="mt-10 md:mt-[10%] md:pb-10 md:flex md:flex-row flex-col items-center px-8 md:px-4 mx-auto max-w-screen-xl" id="home">
                 <div className="w-full ">
                     <div className="mt-6 space-y-6">
                         <h1 className="bg-yellow-800 text-white text-sm md:text-lg w-fit px-2 py-1 md:py-0 rounded-md animate__animated animate__fadeInDown">
@@ -70,18 +70,30 @@ function Homepage() {
 
                     </div>
                 </div>
+                <div className="md:hidden flex justify-center">
+                    <img src="/siva.jpg"
+                        alt="siva"
+                        className="rounded-full scale-50 bg-cyan-400 p-10 " />
+                </div>
 
-                <div className="w-full md:w-1/2 flex items-center  mt-10 md:mt-0 relative md:right-10 animate__animated animate__slideInRight">
+                <div className="w-1/2 hidden md:flex items-center relative right-10 animate__animated animate__slideInRight">
+
                     <div
-                        className="p-4 w-44 h-44 md:w-66 md:h-70 relative md:left-20 left-40 animate-spin bg-cyan-400 rounded-full 
-                                   border-2 border-cyan-400" style={{ animationDuration: "2.8s" }}
+                        className="p-4 w-66 h-70 relative left-60 animate-spin bg-cyan-400 rounded-full 
+                                   border-2 border-cyan-400" style={{ animationDuration: "4s" }}
+                    ></div>
+                    <div
+                        className="md:flex p-4 w-66 h-70 relative animate-spin bg-cyan-400 rounded-full 
+                                   border-2 border-cyan-400" style={{ animationDuration: "3.3s" }}
                     ></div>
                     <img
-                        src="../../src/assets/siva.jpg"
+                        src="/siva.jpg"
                         alt="siva"
-                        className="md:absolute md:right-25 w-36 h-36 md:w-52 md:h-52 rounded-full z-100"
+                        className="absolute right-10 w-54 h-54 rounded-full z-100"
                     />
                 </div>
+
+
             </div>
 
             <div id="about">

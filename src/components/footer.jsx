@@ -15,7 +15,7 @@ function Footer() {
       
 
 
-            <div className=" flex flex-col items-center bg-gray-100 mx-5 ">
+            <div className=" flex flex-col items-center bg-gray-100 mx-5 mb-1">
                 <div className="flex items-center w-full ">
                     <div className="flex-grow h-px bg-gray-400"></div>
                     <button onClick={handleclick} className="mx-3 z-10 text-center p-2 rounded-full"><Up_arrow /></button>
