@@ -6,9 +6,9 @@ function project() {
 
         <div className="md:mt-[10%] mt-[20%]">
             <h1 className="md:text-3xl text-2xl font-bold text-gray-700 text-center">Projects</h1>
-            <div className="flex md:flex-row flex-col justify-center items-center gap-10 mt-[10%] ">
+            <div className="grid md:grid-cols-3 place-items-center gap-10 mt-[6%] ">
                 {projectGH.map((project, index) => (
-                    <div key={index} className="bg-white shadow-lg rounded-xl p-8 hover:shadow-2xl transition-all duration-300 md:w-[25%] w-[65%] hover:brightness-70 hover:scale-103 ">
+                    <div key={index} className="bg-white shadow-lg rounded-xl p-8 hover:shadow-2xl transition-all duration-300 md:w-[75%] w-[65%] hover:brightness-70 hover:scale-103 ">
                         <div className="mb-4 flex justify-center">
                             <img src={project.image} alt={project.name} className=" rounded-md h-40  object-cover w-[90%] " />
 

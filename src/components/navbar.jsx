@@ -33,13 +33,11 @@ function Navbar() {
                                         stroke="currentColor"
                                         strokeWidth={2}
                                         viewBox="0 0 24 24"
-                                        
                                     >
                                         <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
                                     </svg>
                                 ) : (
                                     // Hamburger (≡) icon
-
                                     <svg
                                         className="w-6 h-6"
                                         fill="none"
@@ -54,15 +52,11 @@ function Navbar() {
                                         />
                                     </svg>
                                 )
-
-
-
                             }
-
                         </button>
                     </div>
-
                 </div>
+
                 <div className="hidden md:flex gap-20 text-lg text-gray-800 font-medium ">
                     <a href="#home" className="hover:text-cyan-500">Home</a>
                     <a href="#about" className="hover:text-cyan-500">About</a>

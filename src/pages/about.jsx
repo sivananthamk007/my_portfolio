@@ -1,7 +1,7 @@
 
 function About() {
-    const handleclick=()=>{
-        window.open("/my_resume.pdf","_blank")
+    const handleclick = () => {
+        window.open("/my_resume.pdf", "_blank")
     }
     return (
         <div >
@@ -10,9 +10,9 @@ function About() {
                 <div className="md:flex md:flex-row md:mt-25 mt-10 md:gap-45 gap-15 mr-30 w-full flex flex-col items-center">
                     <div className="bg-white w-[90%] md:w-xl space-y-6 p-7 rounded-2xl shadow-2xl hover:bg-gray-50">
                         <h1 className="text-[21px] text-gray-800 text-center font-semibold">My Introduction</h1>
-                        <p className="text-gray-600 text-center md:text-lg">I am well-versed in HTML, CSS and JavaScript , and other cutting edge frameworks
-                            and libraries,which allows me to implement interactive features. Additionally,
-                            I have experirence working with content management systems (CMS) like WordPress.
+                        <p className="text-gray-600 text-center md:text-lg">I am a frontend developer skilled in HTML, CSS, JavaScript, React, and TailwindCSS,
+                            which I use to build responsive and user-friendly web applications. I also have experience working with content management systems (CMS) like WordPress,
+                            allowing me to create both custom-coded and CMS-based solutions.
                         </p>
                         <div className="flex justify-end mr-3 ">
                             <button onClick={handleclick} className="hover:bg-gray-600 hover:shadow-none md:px-6 md:py-3 px-4 py-2 rounded-3xl 

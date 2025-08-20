@@ -26,10 +26,10 @@ function Homepage() {
         a.click();
     };
     return (
-        <div className="overflow-hidden">
+        <div className="overflow-hidden ">
             <Navbar />
 
-            <div className="mt-10 md:mt-[10%] md:pb-10 md:flex md:flex-row flex-col items-center px-8 md:px-4 mx-auto max-w-screen-xl" id="home">
+            <div className="mt-10 md:mt-[10%] md:pb-10 md:flex md:flex-row flex-col items-center px-8 md:px-4 mx-auto max-w-screen-xl scale_width" id="home">     {/*scale_width local class */}
                 <div className="w-full ">
                     <div className="mt-6 space-y-6">
                         <h1 className="bg-yellow-800 text-white text-sm md:text-lg w-fit px-2 py-1 md:py-0 rounded-md animate__animated animate__fadeInDown">
@@ -96,22 +96,22 @@ function Homepage() {
 
             </div>
 
-            <div id="about">
+            <div id="about" className="scale_width">        {/*scale_width local class */}
                 <About />
 
             </div>
 
-            <div id="project">
+            <div id="project" className="scale_width">
                 <Project />
 
             </div>
 
-            <div id="contact">
+            <div id="contact" className="scale_width">
                 <Contact />
 
             </div>
 
-            <div id="footer">
+            <div id="footer" className="scale_width">
                 <Footer />
 
             </div>
